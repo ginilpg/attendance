@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "checkin_js",
+    "pageId": "Attendance View",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tverifyLogin:async()=>\n\t{\n\t\tif(appsmith.store.userData==undefined || !appsmith.store.userData?.emp_id) navigateTo(\"Login Page\");\n\t\t\n\t},\n\tcheckinTabSelected: async() => {\n\t\tif(Tabs1.selectedTab==\"Checkin/Checkout\")\n\t\t{\n\t\t\tdebugger;\n\t\t\tnavigator.permissions && navigator.permissions.query({name: 'geolocation'})\n    .then((PermissionStatus)=>{ \n\t if(PermissionStatus.state != 'granted' && PermissionStatus.state != 'prompt') {\n          storeValue(\"location_permission\",false);\n        }\n\t\t\t\telse\n\t\t\t\t\tstoreValue(\"location_permission\",true);\n\n\t\t\t});\n\t\t\t\tstoreValue(\"checkin_data\",{});\n\t\t\t\tawait fetch_checkintime.run();\n\t\t\t  storeValue(\"current_location\",await appsmith.geolocation.getCurrentPosition());\n\t\t\t\tif(fetch_checkintime.data.length>0) storeValue(\"checkin_data\",fetch_checkintime.data[0]);\n\t\t}\n\t},\n\t\n\tsubmitCheckInOut: async (pastAttendance=false) => {\n\t\t//write code here\n\t\tlet params={};\n\t\tif(pastAttendance)\n\t\t{\n\t\t\tparams.checkin_location=\"NA\";\n\t\t\tparams.checkin_time=moment(CheckinDate.formattedDate + ' ' + mark_attendance_form.data.checkInTime + \":\" + mark_attendance_form.data.checkinTimeMinute).format('Y-MM-DD HH:mm');\n\n\t\t\tparams.checkout_time=moment(CheckinDate.formattedDate+' '+mark_attendance_form.data.checkOutTime+\":\"+mark_attendance_form.data.checkoutTimeMinute).format('Y-MM-DD HH:mm');\n\t\t\tawait submit_missed_checkIn.run(params);\n\t\t\tcloseModal('mark_attendance');\n\t\t\tfetch_attendance.run();\n\t\t\treturn;\n\t\t}\n\t\tlet checkin_type=Object.keys(appsmith.store.checkin_data).length>0? appsmith.store.checkin_data.checkout_time ? \"checkin\" : \"checkout\" : 'checkin';\n\n\t\tparams.checkin_type=checkin_type;\n\t\tdebugger;\n\t\tlet checkin_location=await appsmith.geolocation.getCurrentPosition();\n\t\tlet location_params={\"latitude\":checkin_location.coords.latitude,\"longitude\":checkin_location.coords.longitude};\n\t\tlet loaction_data=await Reverse_geolocation.run(location_params);\n\t\tparams.checkin_location=loaction_data.results[0].formatted;\n\t  console.log(params);\n\t\tif(checkin_type==\"checkin\")\n\t\t\tawait submit_checkIn.run(params);\n\t\telse\n\t\t\tawait update_checkout.run(params);\n\t //this.checkinTabSelected();\n\t\tawait fetch_checkintime.run();\n    if (fetch_checkintime.data.length > 0) storeValue(\"checkin_data\", fetch_checkintime.data[0]);\n\t\tawait fetch_attendance.run();\n\t\tnavigateTo('Attendance View');\n\t\t\n\t},\n\tverifyCheckinout:  ()=> {\n\t\t//use async-await or promises\n\t//\tstoreValue(\"checkin_type\",\"checkin\");\n\n\t\t//if(fetch_checkintime?.data[0]?.checkin_time)\n\t\tif(Object.keys(appsmith.store.checkin_data).length>0 && appsmith.store.checkin_data.checkin_time)\n\t\t{\n\t\t\t//storeValue(\"checkin_type\",\"checkout\");\n\t\t\treturn 'CheckOut';\n\t\t}\n\t\treturn 'CheckIn';\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      }
+    ]
+  },
+  "id": "Attendance View_checkin_js",
+  "deleted": false,
+  "gitSyncId": "630858db4e42b8633778f286_63145bd0c276f65530f675a3"
+}
