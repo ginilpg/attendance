@@ -2204,10 +2204,12 @@
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "async () => {\n  if (appsmith.store.userData == undefined || !appsmith.store.userData?.emp_id) navigateTo(\"Login Page\");\n}"
+                "async () => {\n  debugger;\n  if (appsmith.store.userData == undefined || !appsmith.store.userData?.emp_id) navigateTo(\"Login Page\");\n}"
               ],
               "timeoutInMillisecond": 10000
-            },
+            }
+          ],
+          [
             {
               "id": "Attendance View_fetch_attendance",
               "name": "fetch_attendance",

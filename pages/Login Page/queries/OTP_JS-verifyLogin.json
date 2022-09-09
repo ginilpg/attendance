@@ -3,7 +3,7 @@
   "pluginId": "js-plugin",
   "unpublishedAction": {
     "name": "verifyLogin",
-    "fullyQualifiedName": "checkin_js.verifyLogin",
+    "fullyQualifiedName": "OTP_JS.verifyLogin",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,13 +13,13 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Attendance View",
-    "collectionId": "Attendance View_checkin_js",
+    "pageId": "Login Page",
+    "collectionId": "Login Page_OTP_JS",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "async () => {\n  debugger;\n  if (appsmith.store.userData == undefined || !appsmith.store.userData?.emp_id) navigateTo(\"Login Page\");\n}",
+      "body": "async () => {\n  if (appsmith.store.userData != undefined && appsmith.store.userData.emp_id) navigateTo(\"Attendance View\");\n}",
       "jsArguments": [],
       "isAsync": true
     },
@@ -33,14 +33,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "async () => {\n  debugger;\n  if (appsmith.store.userData == undefined || !appsmith.store.userData?.emp_id) navigateTo(\"Login Page\");\n}"
+      "async () => {\n  if (appsmith.store.userData != undefined && appsmith.store.userData.emp_id) navigateTo(\"Attendance View\");\n}"
     ],
     "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Attendance View_checkin_js.verifyLogin",
+  "id": "Login Page_OTP_JS.verifyLogin",
   "deleted": false,
-  "gitSyncId": "630858db4e42b8633778f286_63177fdfedfb4e0b6ffd2654"
+  "gitSyncId": "6317903a1df89313e257ada5_631b0c8fa1facb4f102b9fdc"
 }
