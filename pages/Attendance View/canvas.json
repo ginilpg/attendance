@@ -1112,7 +1112,7 @@
                                       ],
                                       "shouldTruncate": false,
                                       "truncateButtonColor": "#FFC13D",
-                                      "text": "CheckIn Time:\n",
+                                      "text": "CheckIn time:\n",
                                       "key": "9bxvcdx1ly",
                                       "isDeprecated": false,
                                       "rightColumn": 12,
@@ -1378,7 +1378,7 @@
                                       ],
                                       "shouldTruncate": false,
                                       "truncateButtonColor": "#FFC13D",
-                                      "text": "CheckOut Time:\n",
+                                      "text": "CheckOut time:\n",
                                       "key": "9bxvcdx1ly",
                                       "isDeprecated": false,
                                       "rightColumn": 12,
@@ -2207,9 +2207,7 @@
                 "async () => {\n  if (appsmith.store.userData == undefined || !appsmith.store.userData?.emp_id) navigateTo(\"Login Page\");\n}"
               ],
               "timeoutInMillisecond": 10000
-            }
-          ],
-          [
+            },
             {
               "id": "Attendance View_fetch_attendance",
               "name": "fetch_attendance",
