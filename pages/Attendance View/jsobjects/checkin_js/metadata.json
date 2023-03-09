@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "checkin_js",
+    "pageId": "Attendance View",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Attendance View_checkin_js",
+  "deleted": false,
+  "gitSyncId": "630858db4e42b8633778f286_63145bd0c276f65530f675a3"
+}

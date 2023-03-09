@@ -1,0 +1,1 @@
+insert into attendance_data (`emp_id`,{{this.params.checkin_type=='checkin'?'checkin_time':`checkout_time`}},{{this.params.checkin_type=='checkin'?'checkin_location':`checkout_location`}},modified_date) values ('{{appsmith.store.userData.emp_id}}',NOW(),'{{this.params.checkin_location}}',NOW())
