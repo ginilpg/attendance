@@ -1,0 +1,1 @@
+update attendance_data set checkout_time=NOW(),checkout_location='{{this.params.checkin_location}}',modified_date=NOW() WHERE  id={{appsmith.store.checkin_data.id}} limit 1;

@@ -1,0 +1,2 @@
+SELECT id,checkin_time,checkin_location,checkout_time,checkout_location FROM attendance_data where emp_id='{{appsmith.store.userData.emp_id}}' and checkin_time like concat(CURDATE(),'%') order by modified_date desc LIMIT 1
+

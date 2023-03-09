@@ -1,0 +1,1 @@
+Your email OTP is {{this.params.otp}}
