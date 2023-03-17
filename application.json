@@ -1,12 +1,8 @@
 {
   "pages": [
     {
-      "id": "Login Page",
-      "isDefault": true
-    },
-    {
       "id": "Check in ",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "Attendance View",
