@@ -2,7 +2,7 @@
   "pages": [
     {
       "id": "Login Page",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "Check in ",
@@ -10,7 +10,7 @@
     },
     {
       "id": "Attendance View",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Login Page Copy",
