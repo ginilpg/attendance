@@ -2,7 +2,7 @@
   "pages": [
     {
       "id": "Login Page",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Check in ",
@@ -15,6 +15,10 @@
     {
       "id": "Login Page Copy",
       "isDefault": false
+    },
+    {
+      "id": "sample1",
+      "isDefault": true
     }
   ],
   "viewMode": false,

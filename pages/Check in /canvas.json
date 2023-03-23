@@ -13,13 +13,13 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 740,
+          "bottomRow": 500,
           "containerStyle": "none",
           "snapRows": 85,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 64,
+          "version": 77,
           "minHeight": 860,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -64,7 +64,7 @@
                   "detachFromLayout": true,
                   "widgetId": "cy3jewsjve",
                   "containerStyle": "none",
-                  "bottomRow": 370,
+                  "bottomRow": 200,
                   "topRow": 0,
                   "parentRowSpace": 1,
                   "isVisible": true,
@@ -122,6 +122,7 @@
                       "isDeprecated": false,
                       "rightColumn": 58,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "3083wuyz7k",
                       "isVisible": true,
                       "fontStyle": "",
@@ -131,7 +132,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "fontSize": "0.875rem"
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "0.875rem",
+                      "minDynamicHeight": 4
                     },
                     {
                       "widgetName": "Text1Copy2",
@@ -168,6 +171,7 @@
                       "isDeprecated": false,
                       "rightColumn": 14,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "1dxtioz8o6",
                       "isVisible": true,
                       "fontStyle": "BOLD",
@@ -177,7 +181,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "fontSize": "0.875rem"
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "0.875rem",
+                      "minDynamicHeight": 4
                     },
                     {
                       "widgetName": "Text2Copy2",
@@ -217,6 +223,7 @@
                       "isDeprecated": false,
                       "rightColumn": 64,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "6ki66v7n4m",
                       "isVisible": true,
                       "fontStyle": "",
@@ -226,7 +233,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "fontSize": "0.875rem"
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "0.875rem",
+                      "minDynamicHeight": 4
                     },
                     {
                       "widgetName": "Text1",
@@ -263,6 +272,7 @@
                       "isDeprecated": false,
                       "rightColumn": 12,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "58ahihcspz",
                       "isVisible": true,
                       "fontStyle": "BOLD",
@@ -272,7 +282,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "fontSize": "0.875rem"
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "0.875rem",
+                      "minDynamicHeight": 4
                     }
                   ]
                 }
@@ -282,6 +294,7 @@
               "backgroundColor": "#eff6ff",
               "isDeprecated": false,
               "rightColumn": 61,
+              "dynamicHeight": "FIXED",
               "widgetId": "hyrhwsj20h",
               "containerStyle": "card",
               "isVisible": "{{appsmith.store.checkin_data&&appsmith.store.checkin_data.checkin_time?true:false}}",
@@ -289,7 +302,9 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "borderRadius": "0.375rem"
+              "borderRadius": "0.375rem",
+              "maxDynamicHeight": 9000,
+              "minDynamicHeight": 4
             },
             {
               "zoomLevel": 75,
@@ -445,7 +460,7 @@
                   "detachFromLayout": true,
                   "widgetId": "g5wwoe9ozi",
                   "containerStyle": "none",
-                  "bottomRow": 300,
+                  "bottomRow": 200,
                   "topRow": 0,
                   "parentRowSpace": 1,
                   "isVisible": true,
@@ -503,6 +518,7 @@
                       "isDeprecated": false,
                       "rightColumn": 58,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "s18582hsk7",
                       "isVisible": true,
                       "fontStyle": "",
@@ -512,7 +528,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "fontSize": "0.875rem"
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "0.875rem",
+                      "minDynamicHeight": 4
                     },
                     {
                       "widgetName": "Text1CopyCopy",
@@ -549,6 +567,7 @@
                       "isDeprecated": false,
                       "rightColumn": 14,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "jfgeg2zk3u",
                       "isVisible": true,
                       "fontStyle": "BOLD",
@@ -558,7 +577,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "fontSize": "0.875rem"
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "0.875rem",
+                      "minDynamicHeight": 4
                     },
                     {
                       "widgetName": "Text2CopyCopy",
@@ -598,6 +619,7 @@
                       "isDeprecated": false,
                       "rightColumn": 64,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "8x5hj647zd",
                       "isVisible": true,
                       "fontStyle": "",
@@ -607,7 +629,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "fontSize": "0.875rem"
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "0.875rem",
+                      "minDynamicHeight": 4
                     },
                     {
                       "widgetName": "Text1Copy1",
@@ -644,6 +668,7 @@
                       "isDeprecated": false,
                       "rightColumn": 12,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "bjmu8c6sfu",
                       "isVisible": true,
                       "fontStyle": "BOLD",
@@ -653,7 +678,9 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "fontSize": "0.875rem"
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "0.875rem",
+                      "minDynamicHeight": 4
                     }
                   ]
                 }
@@ -663,6 +690,7 @@
               "backgroundColor": "#eff6ff",
               "isDeprecated": false,
               "rightColumn": 61,
+              "dynamicHeight": "FIXED",
               "widgetId": "vlq32ej8bo",
               "containerStyle": "card",
               "isVisible": "{{appsmith.store.checkin_data&&appsmith.store.checkin_data.checkout_time?true:false}}",
@@ -670,7 +698,9 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "borderRadius": "0.375rem"
+              "borderRadius": "0.375rem",
+              "maxDynamicHeight": 9000,
+              "minDynamicHeight": 4
             }
           ]
         },
