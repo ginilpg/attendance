@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 77,
+          "version": 78,
           "minHeight": 600,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -227,15 +227,13 @@
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "sample1",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+        "deleted": false
       }
     ],
     "userPermissions": [],
     "policies": [],
     "isHidden": false
   },
-  "deleted": false,
-  "gitSyncId": "6317903a1df89313e257ada5_641c054c53066d1510cc569b"
+  "gitSyncId": "6317903a1df89313e257ada5_641c054c53066d1510cc569b",
+  "deleted": false
 }

@@ -103,7 +103,7 @@
     "policies": [],
     "userPermissions": []
   },
+  "gitSyncId": "630858db4e42b8633778f286_630ddfaea159817a116485ec",
   "id": "Login Page_Fetch_otp_details",
-  "deleted": false,
-  "gitSyncId": "630858db4e42b8633778f286_630ddfaea159817a116485ec"
+  "deleted": false
 }

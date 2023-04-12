@@ -39,7 +39,7 @@
     "policies": [],
     "userPermissions": []
   },
+  "gitSyncId": "6317903a1df89313e257ada5_631869b6754d3647bfacca9a",
   "id": "Attendance View_checkin_js.submitCheckInOut",
-  "deleted": false,
-  "gitSyncId": "6317903a1df89313e257ada5_631869b6754d3647bfacca9a"
+  "deleted": false
 }

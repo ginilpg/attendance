@@ -465,15 +465,13 @@
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Login Page Copy",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+        "deleted": false
       }
     ],
     "userPermissions": [],
     "policies": [],
     "isHidden": true
   },
-  "deleted": false,
-  "gitSyncId": "6317903a1df89313e257ada5_6318b99a9b89144767c6e61d"
+  "gitSyncId": "6317903a1df89313e257ada5_6318b99a9b89144767c6e61d",
+  "deleted": false
 }
