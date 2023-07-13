@@ -29,9 +29,9 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Login Page_OTP_JS.verifyLogin",
+              "id": "64af903a1407036f4ab0b0f0",
               "name": "OTP_JS.verifyLogin",
-              "collectionId": "Login Page_OTP_JS",
+              "collectionId": "64af903b1407036f4ab0b113",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
