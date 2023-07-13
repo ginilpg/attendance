@@ -29,7 +29,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "64af903a1407036f4ab0b0f0",
               "name": "OTP_JS.verifyLogin",
               "collectionId": "64af903b1407036f4ab0b113",
               "confirmBeforeExecute": false,
