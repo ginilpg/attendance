@@ -1,0 +1,59 @@
+{
+    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "widgetName": "Tabs1",
+    "isCanvas": true,
+    "dynamicPropertyPathList": [
+        {"key": "isVisible"},
+        {"key": "animateLoading"}
+    ],
+    "displayName": "Tabs",
+    "iconSVG": "/static/media/icon.74a6d653c8201e66f1cd367a3fba2657.svg",
+    "topRow": 0,
+    "bottomRow": 74,
+    "parentRowSpace": 10,
+    "type": "TABS_WIDGET",
+    "hideCard": false,
+    "shouldScrollContents": false,
+    "animateLoading": "true",
+    "parentColumnSpace": 19.8125,
+    "dynamicTriggerPathList": [{"key": "onTabSelected"}],
+    "leftColumn": 0,
+    "dynamicBindingPathList": [
+        {"key": "accentColor"},
+        {"key": "borderRadius"},
+        {"key": "boxShadow"}
+    ],
+    "key": "o3dhtopl9v",
+    "isDeprecated": false,
+    "rightColumn": 64,
+    "dynamicHeight": "FIXED",
+    "widgetId": "49z7vd09ql",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "defaultTab": "Attendance View",
+    "onTabSelected": "{{checkin_js.checkinTabSelected()}}",
+    "shouldShowTabs": true,
+    "tabsObj": {
+        "tab1": {
+            "widgetId": "3x8e7fzu17",
+            "index": 0,
+            "label": "Attendance View",
+            "id": "tab1",
+            "isVisible": true
+        },
+        "tab2": {
+            "widgetId": "3imo2jb2xr",
+            "index": 1,
+            "label": "Checkin/Checkout",
+            "id": "tab2",
+            "isVisible": true
+        }
+    },
+    "isVisible": "true",
+    "version": 3,
+    "parentId": "0",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "maxDynamicHeight": 9000,
+    "minDynamicHeight": 4
+}
