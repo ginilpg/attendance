@@ -25,7 +25,8 @@
         "send": {
           "from": "ginil.pg@gmail.com",
           "to": "{{this.params.email}}",
-          "subject": "Your email OTP is {{this.params.otp}}"
+          "subject": "Your email OTP is {{this.params.otp}}",
+          "bodyType": "text/html"
         }
       }
     },

@@ -2275,9 +2275,9 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
+                "appsmith.store.userData.role==\"admin\" && employee_select.selectedOptionValue?employee_select.selectedOptionValue:appsmith.store.userData.emp_id",
                 "attendance_year.selectedOptionValue+'-'+attendance_month.selectedOptionValue+'-01'",
-                "attendance_year.selectedOptionValue+'-'+attendance_month.selectedOptionValue+'-30'",
-                "appsmith.store.userData.role==\"admin\" && employee_select.selectedOptionValue?employee_select.selectedOptionValue:appsmith.store.userData.emp_id"
+                "attendance_year.selectedOptionValue+'-'+attendance_month.selectedOptionValue+'-30'"
               ],
               "timeoutInMillisecond": 10000
             }
