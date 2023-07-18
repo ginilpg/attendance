@@ -1,6 +1,10 @@
 ![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_primary.png)
 
+<<<<<<< HEAD
 Tiihis app is built using Appsmith. Turn any datasource into an internal app in minutes. Appsmith lets you drag-and-drop components to build dashboards, write logic with JavaScript objects and connect to any API, database or GraphQL source.
+=======
+THHhis app is built using Appsmith. Turn any datasource into an internal app in minutes. Appsmith lets you drag-and-drop components to build dashboards, write logic with JavaScript objects and connect to any API, database or GraphQL source.
+>>>>>>> 7b621044e7d05b940102124882056c0de046483b
 
 ![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/images/integrations.png)
 
