@@ -1,0 +1,82 @@
+{
+  "unpublishedPage": {
+    "name": "Attendance View",
+    "slug": "attendance-view",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 740,
+          "containerStyle": "none",
+          "snapRows": 85,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 77,
+          "minHeight": 860,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Attendance View_checkin_js.verifyLogin",
+              "name": "checkin_js.verifyLogin",
+              "collectionId": "Attendance View_checkin_js",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async () => {\n  if (appsmith.store.userData == undefined || !appsmith.store.userData?.emp_id) navigateTo(\"Login Page\");\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Attendance View_fetch_attendance",
+              "name": "fetch_attendance",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.userData.role==\"admin\" && employee_select.selectedOptionValue?employee_select.selectedOptionValue:appsmith.store.userData.emp_id",
+                "attendance_year.selectedOptionValue+'-'+attendance_month.selectedOptionValue+'-01'",
+                "attendance_year.selectedOptionValue+'-'+attendance_month.selectedOptionValue+'-30'"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Attendance View_get_users",
+              "name": "get_users",
+              "confirmBeforeExecute": false,
+              "pluginType": "SAAS",
+              "jsonPathKeys": [
+                "employee_select.filterText",
+                "employee_select.filterText?'name':''"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Attendance View",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "630858db4e42b8633778f286_630e0a571274f8409e77bc9f"
+}

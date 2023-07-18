@@ -24,7 +24,8 @@
         "command": "SEND",
         "send": {
           "from": "noreply@test.com",
-          "to": "{{}}"
+          "to": "{{}}",
+          "bodyType": "text/html"
         }
       }
     },
