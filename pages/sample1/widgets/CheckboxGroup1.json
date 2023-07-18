@@ -3,8 +3,8 @@
     "displayName": "Checkbox Group",
     "iconSVG": "/static/media/icon.ecb3847950c4515966ef642a32758afb.svg",
     "labelText": "Label",
-    "topRow": 45,
-    "bottomRow": 52,
+    "topRow": 76,
+    "bottomRow": 83,
     "parentRowSpace": 10,
     "labelWidth": 5,
     "type": "CHECKBOX_GROUP_WIDGET",
@@ -49,10 +49,10 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "responsiveBehavior": "fill",
-    "originalTopRow": 45,
+    "originalTopRow": 47,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 52,
+    "originalBottomRow": 54,
     "isInline": true,
     "minDynamicHeight": 4
 }
