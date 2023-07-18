@@ -1,0 +1,1 @@
+SELECT COUNT(*) from public.account where external_id ilike '%{{Table1.searchText}}%';
