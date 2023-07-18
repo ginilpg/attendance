@@ -19,6 +19,10 @@
     {
       "id": "sample1",
       "isDefault": true
+    },
+    {
+      "id": "Protected",
+      "isDefault": false
     }
   ],
   "viewMode": false,
