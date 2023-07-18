@@ -1,0 +1,41 @@
+{
+    "boxShadow": "none",
+    "mobileBottomRow": 10,
+    "widgetName": "IconButton1",
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "displayName": "Icon button",
+    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.80fc7466c0d7181ec0271de7fda795ec.svg",
+    "searchTags": [
+        "click",
+        "submit"
+    ],
+    "topRow": 2,
+    "bottomRow": 10,
+    "type": "ICON_BUTTON_WIDGET",
+    "hideCard": false,
+    "mobileRightColumn": 62,
+    "animateLoading": true,
+    "leftColumn": 46,
+    "dynamicBindingPathList": [
+        {"key": "buttonColor"},
+        {"key": "borderRadius"}
+    ],
+    "isDisabled": false,
+    "key": "fqs21vbc1t",
+    "isDeprecated": false,
+    "rightColumn": 62,
+    "iconName": "arrow-top-right",
+    "widgetId": "g5mavumetr",
+    "buttonStyle": "PRIMARY",
+    "minWidth": 50,
+    "isVisible": true,
+    "version": 1,
+    "parentId": "zrvly2ispf",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "mobileTopRow": 2,
+    "responsiveBehavior": "hug",
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "mobileLeftColumn": 46,
+    "buttonVariant": "PRIMARY"
+}

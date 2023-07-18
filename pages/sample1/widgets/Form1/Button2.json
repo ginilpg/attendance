@@ -16,7 +16,7 @@
     "hideCard": false,
     "mobileRightColumn": 62,
     "animateLoading": true,
-    "leftColumn": 46,
+    "leftColumn": 62,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -25,7 +25,7 @@
     "isDisabled": false,
     "key": "9dlo23qyvn",
     "isDeprecated": false,
-    "rightColumn": 62,
+    "rightColumn": 64,
     "isDefaultClickDisabled": true,
     "widgetId": "u3gfetj7dy",
     "minWidth": 120,

@@ -1,0 +1,89 @@
+{
+    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "mobileBottomRow": 52,
+    "widgetName": "MapChart1",
+    "data": [
+        {
+            "id": "NA",
+            "value": ".82"
+        },
+        {
+            "id": "SA",
+            "value": "2.04"
+        },
+        {
+            "id": "AS",
+            "value": "1.78"
+        },
+        {
+            "id": "EU",
+            "value": ".40"
+        },
+        {
+            "id": "AF",
+            "value": "2.58"
+        },
+        {
+            "id": "AU",
+            "value": "1.30"
+        }
+    ],
+    "colorRange": [
+        {
+            "minValue": 0.5,
+            "code": "#FFD74D",
+            "maxValue": 1
+        },
+        {
+            "minValue": 1,
+            "code": "#FB8C00",
+            "maxValue": 2
+        },
+        {
+            "minValue": 2,
+            "code": "#E65100",
+            "maxValue": 3
+        }
+    ],
+    "isCanvas": false,
+    "displayName": "Map Chart",
+    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.2e98f406047401a91fe13f819347bd2b.svg",
+    "searchTags": [
+        "graph",
+        "visuals",
+        "visualisations"
+    ],
+    "topRow": 20,
+    "bottomRow": 52,
+    "parentRowSpace": 10,
+    "type": "MAP_CHART_WIDGET",
+    "hideCard": false,
+    "mapTitle": "Global Population",
+    "mobileRightColumn": 26,
+    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+    "parentColumnSpace": 5.5732421875,
+    "leftColumn": 23,
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "boxShadow"},
+        {"key": "fontFamily"}
+    ],
+    "key": "nxb0h1y8v7",
+    "isDeprecated": false,
+    "rightColumn": 47,
+    "widgetId": "lhm91y27nx",
+    "mapType": "WORLD",
+    "minWidth": 450,
+    "isVisible": true,
+    "version": 1,
+    "parentId": "2z3a24uonx",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "mobileTopRow": 20,
+    "responsiveBehavior": "fill",
+    "originalTopRow": 20,
+    "showLabels": true,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "mobileLeftColumn": 2,
+    "originalBottomRow": 52
+}
