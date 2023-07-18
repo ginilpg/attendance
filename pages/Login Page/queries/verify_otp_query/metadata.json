@@ -44,7 +44,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "gitSyncId": "6317903a1df89313e257ada5_6318a4e1edfb4e0b6ffd3be8",
   "id": "Login Page_verify_otp_query",
-  "deleted": false
+  "deleted": false,
+  "gitSyncId": "6317903a1df89313e257ada5_6318a4e1edfb4e0b6ffd3be8"
 }

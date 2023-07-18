@@ -45,7 +45,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "gitSyncId": "6317903a1df89313e257ada5_6318678b9b89144767c6de02",
   "id": "Attendance View_submit_missed_checkIn",
-  "deleted": false
+  "deleted": false,
+  "gitSyncId": "6317903a1df89313e257ada5_6318678b9b89144767c6de02"
 }

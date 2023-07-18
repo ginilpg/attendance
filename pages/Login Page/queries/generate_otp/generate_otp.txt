@@ -1,0 +1,2 @@
+update login_otp set is_active=0 where emp_id='{{this.params.emp_id}}';
+insert into login_otp (emp_id,otp) values ('{{this.params.emp_id}}',{{this.params.otp}});

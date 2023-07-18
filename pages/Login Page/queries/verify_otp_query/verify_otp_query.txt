@@ -1,0 +1,1 @@
+SELECT id FROM login_otp where emp_id = '{{this.params.emp_id}}' and otp={{this.params.otp}} and is_active=1 limit 1;

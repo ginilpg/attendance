@@ -53,7 +53,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "gitSyncId": "6317903a1df89313e257ada5_63189cf6edfb4e0b6ffd3b47",
   "id": "Login Page_send_otp_email",
-  "deleted": false
+  "deleted": false,
+  "gitSyncId": "6317903a1df89313e257ada5_63189cf6edfb4e0b6ffd3b47"
 }
