@@ -11,7 +11,7 @@
     "hideCard": false,
     "animateLoading": true,
     "parentColumnSpace": 17.9375,
-    "leftColumn": 3,
+    "leftColumn": 21,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"}
@@ -36,7 +36,7 @@
     "labelTextSize": "0.875rem",
     "isRequired": false,
     "isDeprecated": false,
-    "rightColumn": 26,
+    "rightColumn": 44,
     "defaultSelectedValues": ["BLUE"],
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "q7z3x2a71i",
@@ -49,10 +49,10 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "responsiveBehavior": "fill",
-    "originalTopRow": 47,
+    "originalTopRow": 76,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 54,
+    "originalBottomRow": 83,
     "isInline": true,
     "minDynamicHeight": 4
 }
