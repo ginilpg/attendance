@@ -29,6 +29,7 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "sample1_Total_record_public_address1",
               "name": "OTP_JS.verifyLogin",
               "collectionId": "64af903b1407036f4ab0b113",
               "confirmBeforeExecute": false,
