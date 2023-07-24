@@ -38,7 +38,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "gitSyncId": "6317903a1df89313e257ada5_6412b659806a4f4f793fcb46",
   "id": "Login Page_flagsmith.myFun1",
-  "deleted": false
+  "deleted": false,
+  "gitSyncId": "6317903a1df89313e257ada5_6412b659806a4f4f793fcb46"
 }
