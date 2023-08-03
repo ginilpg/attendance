@@ -27,7 +27,6 @@
         {"key": "boxShadow"}
     ],
     "children": [{
-        "mobileBottomRow": null,
         "widgetName": "Canvas8",
         "displayName": "Canvas",
         "topRow": 0,
@@ -36,15 +35,12 @@
         "type": "CANVAS_WIDGET",
         "canExtend": false,
         "hideCard": true,
-        "minHeight": null,
-        "mobileRightColumn": null,
         "useAutoLayout": false,
         "parentColumnSpace": 1,
         "leftColumn": 0,
         "dynamicBindingPathList": [],
         "key": "cv1ke274zq",
         "isDeprecated": false,
-        "rightColumn": null,
         "detachFromLayout": true,
         "widgetId": "mxzya4tamw",
         "containerStyle": "none",
