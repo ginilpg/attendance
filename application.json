@@ -21,7 +21,8 @@
       "isDefault": true
     },
     {
-      "id": "Tabs",
+
+      "id": "Protected",
       "isDefault": false
     }
   ],
