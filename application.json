@@ -23,6 +23,10 @@
     {
       "id": "Protected",
       "isDefault": false
+    },
+    {
+      "id": "stage app",
+      "isDefault": false
     }
   ],
   "viewMode": false,
