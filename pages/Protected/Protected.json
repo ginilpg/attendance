@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "sample1",
-    "slug": "sample1",
+    "name": "Protected",
+    "slug": "protected",
     "layouts": [
       {
         "viewMode": false,
@@ -13,14 +13,14 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1390,
+          "bottomRow": 470,
           "containerStyle": "none",
-          "snapRows": 58,
+          "snapRows": 67,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 83,
-          "minHeight": 600,
+          "version": 80,
+          "minHeight": 690,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -28,23 +28,24 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "sample1_Select_public_address1",
-              "name": "Select_public_address1",
+              "id": "Protected_Select_public_account1",
+              "name": "Select_public_account1",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "Table1.pageOffset",
-                "Table1.pageSize",
                 "Table1.searchText",
-                "Table1.sortOrder.column ? \"ORDER BY \" + Table1.sortOrder.column + \"  \" + (Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\") : \"\""
+                "Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
+                "Table1.sortOrder.column || 'id'",
+                "Table1.pageSize",
+                "Table1.pageOffset"
               ],
               "timeoutInMillisecond": 10000
             }
           ],
           [
             {
-              "id": "sample1_Total_record_public_address1",
-              "name": "Total_record_public_address1",
+              "id": "Protected_Total_record_public_account1",
+              "name": "Total_record_public_account1",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
@@ -56,7 +57,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "sample1",
+        "id": "Protected",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -67,5 +68,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "6317903a1df89313e257ada5_641c054c53066d1510cc569b"
+  "gitSyncId": "6317903a1df89313e257ada5_64b6b26d4f609e3b56e43a57"
 }
