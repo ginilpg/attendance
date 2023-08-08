@@ -23,7 +23,6 @@
         {"key": "borderRadius"},
         {"key": "boxShadow"}
     ],
-
     "children": [
         {
             "tabId": "tab1",
